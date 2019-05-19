@@ -3,7 +3,7 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app",
+				"navigationBarTitleText": "开机动画",
 				"app-plus" : {
                     "titleNView" : false //禁用原生导航栏
                 }
@@ -12,7 +12,31 @@
 	    ,{
             "path" : "pages/views/book/index",
             "style" : {
-				"navigationBarTitleText": "首页"
+				"navigationBarTitleText": "书桌"
+			}
+        }
+        ,{
+            "path" : "pages/views/bookshelf/bookshelf",
+            "style" : {
+				"navigationBarTitleText": "书架"
+			}
+        }
+        ,{
+            "path" : "pages/views/discover/discover",
+            "style" : {
+				"navigationBarTitleText": "发现"
+			}
+        }
+        ,{
+            "path" : "pages/views/my/my",
+            "style" : {
+				"navigationBarTitleText": "我"
+			}
+        }
+        ,{
+            "path" : "pages/views/bookbase/bookbase",
+            "style" : {
+				"navigationBarTitleText": "书库"
 			}
         }
     ],
@@ -21,7 +45,7 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8",
-		// "navigationStyle":"custom"
+		"navigationStyle":"custom"
 	},
 	"tabBar":{
 		"color":"#7a7e83",
@@ -33,7 +57,25 @@
 				"pagePath":"pages/views/book/index",
 				"iconPath":"",
 				"selectedIconPath":"",
-				"text":"首页"
+				"text":"书桌"
+			},
+			{
+				"pagePath":"pages/views/bookbase/bookbase",
+				"iconPath":"",
+				"selectedIconPath":"",
+				"text":"书库"
+			},
+			{
+				"pagePath":"pages/views/discover/discover",
+				"iconPath":"",
+				"selectedIconPath":"",
+				"text":"发现"
+			},
+			{
+				"pagePath":"pages/views/my/my",
+				"iconPath":"",
+				"selectedIconPath":"",
+				"text":"我"
 			}
 		]
 	}
